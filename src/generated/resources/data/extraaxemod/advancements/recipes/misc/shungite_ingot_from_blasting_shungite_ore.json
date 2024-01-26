@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_shungite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extraaxemod:shungite_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "extraaxemod:shungite_ingot_from_blasting_shungite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_shungite_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extraaxemod:shungite_ingot_from_blasting_shungite_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

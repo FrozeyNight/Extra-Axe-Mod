@@ -1,0 +1,18 @@
+{
+  "item.extraaxemod.shungite_ingot" : "Shungite Ingot",
+  "item.extraaxemod.raw_shungite" : "Raw Shungite",
+
+  "item.extraaxemod.shungite_axe" : "Shungite Axe",
+
+  "item.extraaxemod.shungite_axe_charged" : "Charged Shungite Axe",
+
+  "creativetab.extraaxemod_tab": "Extra Axe Mod Tab",
+
+  "block.extraaxemod.shungite_ore": "Shungite Ore",
+
+  "block.extraaxemod.rune_infusion_station": "Rune Infusing Station",
+
+  "item.extraaxemod.lightning_rune" : "Lightning Rune",
+
+  "effect.extraaxemod.lightning_prone": "Lightning Prone"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "extraaxemod:shungite_ingot"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " SS",
+    " TS",
+    " N "
+  ],
+  "result": {
+    "item": "extraaxemod:shungite_axe"
+  },
+  "show_notification": true
+}

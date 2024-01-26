@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "extraaxemod:rune_infusion_station"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "extraaxemod:blocks/rune_infusion_station"
+}

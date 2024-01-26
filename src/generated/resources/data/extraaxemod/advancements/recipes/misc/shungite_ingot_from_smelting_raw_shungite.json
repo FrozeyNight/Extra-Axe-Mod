@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_shungite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "extraaxemod:raw_shungite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "extraaxemod:shungite_ingot_from_smelting_raw_shungite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_shungite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "extraaxemod:shungite_ingot_from_smelting_raw_shungite"
+    ]
+  },
+  "sends_telemetry_event": false
+}
